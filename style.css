@@ -1,0 +1,96 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.div1 p{
+    display: block;
+    background: rgb(158, 6, 6) ;
+    color: white;
+    font-size: 25px;
+    padding-left:55%;
+    padding-right: 15%;
+    height: 50px;
+    align-items: center;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.div2{
+    width: 2400px;
+    font-size: 20px;
+    color: brown;
+    display: inline;
+    flex-grow: 100%;
+}
+.bigger{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+h2{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div3{
+    color: brown;
+    font-size: 30px;
+    display: flex;
+}
+.div4{
+    color: brown;
+    font-size: 30px;
+    display: flex;
+}
+.item{
+    display: inline;
+    align-items: center;
+}
